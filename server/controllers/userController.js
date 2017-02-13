@@ -13,7 +13,7 @@ userController.post = (req, res) => {
 
   const user = new db.User({
     username,
-    password
+    password,
   });
 
 // The then() method returns a promise. A promise represents the eventual result of an asynchronous operation.
@@ -29,8 +29,9 @@ userController.post = (req, res) => {
     res.status(500).json({
       message: err,
     });
+    console.log('Error 500!!!');
   });
-  console.log('API user created');
+  // console.log('API user created');
 };
 
 userController.get = (req, res) => {
