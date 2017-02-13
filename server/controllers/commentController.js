@@ -22,6 +22,9 @@ commentController.post = (req, res) => {
     _post: postId,
   });
 
+// 200 OK
+// 500 Internal Server Error
+// Source: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
   comment.save().then((newComment) => {
     db.Post.findByIdAndUpdate(
       postId,
