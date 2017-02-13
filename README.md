@@ -11,9 +11,9 @@ This repository is for demo purposes. The basics are building and MVC based API 
 
 3. Download Postman to test and work with our API - <a href="https://www.getpostman.com/" target="_blank">Postman Download</a>
 
-4. Clone the repository <a href="https://github.com/cbroberg/node-mvc-api" target="_blank">node-mvc-api</a> from Github or ```git clone https://github.com/cbroberg/node-mvc-api.git```), and run ```npm install```
+4. Clone the repository <a href="https://github.com/cbroberg/node-mvc-api" target="_blank">node-mvc-api</a> from Github or ```git clone https://github.com/cbroberg/node-mvc-api.git```, and run ```npm install```
 
-5. Then open node-mvc-api in your preferred text editor (did anyone mention Atom), and run ```npm start```
+5. Open node-mvc-api in your preferred text editor (did anyone mention Atom), and run ```npm start```
 
 6. Run ```mongod``` to launch the MongoDB daemon and you should be set to go!
 
