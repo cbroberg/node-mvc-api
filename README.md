@@ -1,6 +1,6 @@
 # node-mvc-api
 
-This repository is for demo purposes. The basics are building and MVC based API and learn about how Node.js, Express.js, MongoDB and Mongoose module works together.
+This sample repository is for demo purposes. The basics are building and MVC based API and learn about how Node.js, Express.js, MongoDB and Mongoose module works together.
 
 ## Prerequisites in 6 easy steps
 
