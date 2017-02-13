@@ -1,0 +1,9 @@
+node_modules/
+dist
+build
+.DS_Store
+*.tgz
+npm-debug.log
+run.log
+tutorials.md
+README.md
