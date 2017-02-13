@@ -11,6 +11,6 @@ This repository is for demo purposes. The basics are building and MVC based API 
 
 3. Download Postman to test and work with our API - <a href="https://www.getpostman.com/" target="_blank">Postman Download</a>
 
-4. Clone this repository, run ```npm install```, open repo in your text editor of choice, and run ```npm start``` now we're ready to go!
+4. Clone this repository from <a href="https://github.com/cbroberg/node-mvc-api" target="_blank">node-mvc-api Download</a>, run ```npm install```, open repo in your text editor of choice, and run ```npm start``` now we're ready to go!
 
 Bonus: Check out the <a href="http://mongoosejs.com/" target="_blank">Mongoose documentation</a>.
