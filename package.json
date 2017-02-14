@@ -2,7 +2,7 @@
   "name": "node-mvc-api",
   "version": "1.0.0",
   "description": "A simple demo MVC API build with Node.js, Express.js, and MongoDB (Mongoose)",
-  "main": "index.js",
+  "main": "./server/index.js",
   "scripts": {
     "test": "echo \"Error: No test currently specified\" && exit 1",
     "start": "clear && nodemon bin/dev",
