@@ -12,10 +12,22 @@ import bodyParser from 'body-parser';
 // To fix warning: (node:49577) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library)
 // is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
 
-mongoose.connect('mongodb://localhost:27017/odeum_api', () => {
+
+var uri = 'mongodb://user:pass@ds151049.mlab.com:51049/odeum_api';
+var options = {
+  user: 'MyDBUser',
+  pass: 'QaDeXvG'
+}
+
+mongoose.connect(uri, options, () => {
   console.log('Connected to MongoDB...');
   console.log('');
 });
+
+// mongoose.connect('mongodb://localhost:27017/odeum_api', () => {
+//   console.log('Connected to MongoDB...');
+//   console.log('');
+// });
 
 // const db = function connect(opts) {
 //   mongoose.Promise = global.Promise;
