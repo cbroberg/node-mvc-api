@@ -8,9 +8,7 @@ The basic idea is to build and MVC based API and learn about how Node.js, Expres
 
 1. Basic understanding of how Node.js, Express.js, and MongoDB.
 
-2. A running instance of MongoDB (in this case MacOS)
-
-<a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/" target="_blank">Install MongoDB Community Edition on OS X</a>
+2. A running instance of MongoDB (in this case MacOS): <a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/" target="_blank">Install MongoDB Community Edition on OS X</a>
 
 3. Download Postman to test and work with our API - <a href="https://www.getpostman.com/" target="_blank">Postman Download</a>
 
